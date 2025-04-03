@@ -13,6 +13,7 @@ public class RequestServiceImpl implements RequestService {
     //todo:
         //Add Logger
         // read about public/private for interface/class
+        // make its UI in react
 
     @Override
     public void sendHeadRequest(String url) {  //todo: why do we need to make this method public?
