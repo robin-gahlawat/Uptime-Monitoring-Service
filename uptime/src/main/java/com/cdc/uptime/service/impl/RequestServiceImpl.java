@@ -14,6 +14,7 @@ public class RequestServiceImpl implements RequestService {
         //Add Logger
         // read about public/private for interface/class
         // make its UI in react
+        // Ensure your interface is implemented by two classes one that does http request and other that does grpc/graphql
 
     @Override
     public void sendHeadRequest(String url) {  //todo: why do we need to make this method public?
